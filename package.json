@@ -1,0 +1,12 @@
+{
+  "name": "template-tml-extension-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TYW Launcher 扩展模板（Node.js）",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "pack": "node build.js"
+  },
+  "license": "CC-BY-NC-4.0"
+}

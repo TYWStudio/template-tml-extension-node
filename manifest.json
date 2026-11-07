@@ -1,0 +1,14 @@
+{
+  "apiVersion": 1,
+  "id": "com.tywstudio.example.node",
+  "name": "TML 拓展示例 (Node.js)",
+  "version": "1.0.0",
+  "author": "TYWStudio",
+  "description": "TYW Launcher 扩展模板（Node.js）示例。",
+  "runtime": "node",
+  "format": "tmlext",
+  "entry": "main.js",
+  "platforms": ["windows"],
+  "permissions": ["log", "toast", "host.info", "instances.list", "events", "storage", "settings"],
+  "subscribe": ["launcher.started", "game.launched", "settings.changed"]
+}
